@@ -8,7 +8,8 @@
     --yellow-underline: hsl(51, 100%, 49%);
     --soft-red-underline: hsl(7, 99%, 70%);
     --body-paragraph-color: hsl(213, 9%, 39%);
-    --bottom-text-color: hsl(212, 27%, 19%);
+    --photography-text-color: hsl(198, 62%, 26%);
+    --graphics-design-text-color: hsl(167, 40%, 24%);
     --heading-size: 2.8rem;
     --body-head-size: 2.3rem;
     --body-paragraph-size: 16px;
@@ -241,7 +242,6 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    color: var(--bottom-text-color);
 }
 
 .bottom-text-container > h2 {
@@ -256,6 +256,16 @@ h1 {
     font-weight: 600;
     line-height: 1.5;
 }
+
+.graphics {
+    color: var(--graphics-design-text-color);
+}
+
+.photograpy {
+    color: var(--photography-text-color);
+}
+
+
 
 
 .attribution {
