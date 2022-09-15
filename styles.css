@@ -24,6 +24,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100vw;
     height: auto;
@@ -87,6 +91,15 @@ nav {
     font-weight: bold;
     font-weight: 300;
     font-family: var(--body-font);
+}
+
+.nav-links > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links > ul > li:hover {
+    color: var(--contact-btn);
 }
 
 #contact-btn {
