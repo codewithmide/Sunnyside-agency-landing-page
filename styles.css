@@ -440,6 +440,31 @@ footer {
         gap: 2rem;
     }
 
+    .about-section {
+        height: 180vh;
+    }
+    
+    .first-left,
+    .first-right,
+    .second-right,
+    .second-left,
+    .third-right,
+    .third-left {
+        width: 50%;
+        height: 60vh;
+    }
+
+    .footer-nav-links {
+        width: 40%;
+    }
+    
+    .contacts {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
     h1 {
         font-size: 2rem;
     }
