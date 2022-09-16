@@ -19,6 +19,9 @@
     --learn-more-btn: 1.1rem;
     --bottom-text-header: 1.8rem;
     --testimonial-font-size: 1.4rem;
+    --tablet-header-size: 1.6rem;
+    --tablet-heading-size: 1.2rem;
+    --tablet-body-size: 10px:
 }
 
 *,
@@ -397,4 +400,69 @@ footer {
 
 .attribution a {
     color: hsl(0, 0%, 100%);
+}
+
+/* TABLET VIEW */
+@media only screen and (max-width: 992px) {
+    main {
+        height: 70vh;
+    }
+
+    nav {
+        margin: 0 20px;
+    }
+
+    .nav-links {
+        width: 45%;
+    }
+
+    .nav-links > ul > li {
+        font-size: 13px;
+    }
+
+    #contact-btn {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .top-container {
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        height: 50vh;
+    }
+
+    nav {
+        margin: 0 20px;
+    }
+
+    .nav-links {
+        width: 40%;
+    }
+
+    .nav-links > ul > li {
+        font-size: 13px;
+    }
+
+    #contact-btn {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .top-container {
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
 }
