@@ -14,7 +14,7 @@
     --testimonial-paragraph-color: hsl(232, 10%, 55%);
     --footer-bg-color: hsl(168, 34%, 41%);
     --heading-size: 2.8rem;
-    --mobile-heading-size: 3rem;
+    --mobile-heading-size: 2.5rem;
     --body-head-size: 2.3rem;
     --body-paragraph-size: 16px;
     --learn-more-btn: 1.1rem;
@@ -397,6 +397,7 @@ footer {
     font-size: 11px;
     text-align: center;
     color: var(--graphics-design-text-color);
+    font-family: var(--body-font);
 }
 
 .attribution a {
@@ -447,6 +448,11 @@ footer {
 @media only screen and (max-width: 600px) {
     body {
         width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
 
     nav {
@@ -579,6 +585,32 @@ footer {
     .box {
         width: 100%;
         gap: 2rem;
+    }
+
+    .project-section {
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .project-section > img {
+        width: 50%;
+        height: 100%;
+    }
+
+    footer {
+        height: 40vh;
+        width: 100%;
+    }
+    
+    .footer-nav-links {
+        width: 60%;
+    }
+    
+    .contacts {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
     }
 
     .desktop {
