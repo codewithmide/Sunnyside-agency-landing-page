@@ -404,7 +404,8 @@ footer {
     color: hsl(0, 0%, 100%);
 }
 
-.mobile {
+.mobile,
+.mobile-nav {
     display: none;
 }
 
@@ -540,13 +541,13 @@ footer {
     }
 
     .mobile-nav-links {
-        display: block;
         position: absolute;
         top: 5rem;
         width: 90%;
         margin: 0 auto;
         height: 32vh;
         background-color: hsl(0, 0%, 100%);
+        display: none;
     }
 
     .mobile-nav-links > ul {
