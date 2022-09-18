@@ -607,6 +607,10 @@ footer {
         display: none;
     }
 
+    .mobile {
+        display: inline;
+    }
+
     .mobile-first {
         display: block;
         background-image: url(./images/mobile/image-transform.jpg);
