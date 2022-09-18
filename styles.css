@@ -510,7 +510,10 @@ footer {
     }
 
     nav {
-        margin: 0 20px;
+        margin: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
     }
 
     .top-container {
@@ -522,12 +525,57 @@ footer {
     }
 
     h1 {
-        font-size: var(--mobile-heading-size);
+        font-size: 1.6rem;
+        width: 90%;
         text-align: center;
     }
 
     .nav-links {
         display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-nav-links {
+        display: block;
+        position: absolute;
+        top: 5rem;
+        width: 90%;
+        margin: 0 auto;
+        height: 32vh;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .mobile-nav-links > ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+    .mobile-nav-links > ul > li > a {
+        text-decoration: none;
+        font-size: 18px;
+        color: var(--body-paragraph-color);
+        font-family: var(--body-font);
+        font-weight: 600;
+    }
+
+    #mobile-contact-btn {
+        font-size: 13px;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: hsl(51, 100%, 49%);
+        color: var(--white);
+        text-transform: uppercase;
+        font-family: var(--heading);
+        font-weight: 300;
     }
 
     .about-section {
