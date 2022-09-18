@@ -454,6 +454,35 @@ footer {
         height: 60vh;
     }
 
+
+    .text-container > h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-container > p {
+        font-size: 14px;
+    }
+
+    .learn-more {
+        font-size: 16px;
+    }
+
+    .underline {
+        width: 102%;
+    }
+
+    .bottom-text-container {
+        width: 80%;
+    }
+
+    .bottom-text-container > h2 {
+        font-size: 1.6rem;
+    }
+
+    .bottom-text-container > p {
+        font-size: 14px;
+    }
+
     .footer-nav-links {
         width: 40%;
     }
